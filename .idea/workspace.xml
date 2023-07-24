@@ -5,17 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0876ad4-346e-4634-9274-5b4ef6aa2404" name="Changes" comment="Flink project">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/AggregationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/KeyTransformations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/ReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/ConnectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SensorReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SensorSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SmokeLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SmokeLevelSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/filterbased/FilterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/flatmap/FlatMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/keypojo/JavaKeyTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/keypojo/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/mapbased/MapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/collectionbased/CollectionBasedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/collectionbased/CollectionBasedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/CustomDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/CustomDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/HeapMetrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/HeapMetrics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/HeapMonitorSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/HeapMonitorSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/filebased/FileBasedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/filebased/FileBasedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/socketbased/SocketDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/socketbased/SocketDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/socketbased/SocketExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/socketbased/SocketExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/streamingsinkfile/StreamingSinkFileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/streamingsinkfile/StreamingSinkFileExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,30 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StreamingSinkFileExample">
-    <configuration name="CollectionBasedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.collectionbased.CollectionBasedExample" />
+}</component>
+  <component name="RunManager" selected="Application.ConnectExample">
+    <configuration name="AggregationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.AggregationExample" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.collectionbased.*" />
+          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomDataSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.custombased.CustomDataSource" />
+    <configuration name="ConnectExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.ConnectExample" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.custombased.*" />
+          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketDataSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.socketbased.SocketDataSource" />
+    <configuration name="ConnectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.ConnectExample" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.socketbased.*" />
+          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.socketbased.SocketExample" />
+    <configuration name="JavaKeyTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.keypojo.JavaKeyTransformation" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.socketbased.*" />
+          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.keypojo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamingSinkFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.streamingsinkfile.StreamingSinkFileExample" />
+    <configuration name="ReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.ReduceExample" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.streamingsinkfile.*" />
+          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamingSinkFileExample" />
-        <item itemvalue="Application.SocketDataSource" />
-        <item itemvalue="Application.SocketExample" />
-        <item itemvalue="Application.CustomDataSource" />
-        <item itemvalue="Application.CollectionBasedExample" />
+        <item itemvalue="Application.ConnectExample" />
+        <item itemvalue="Application.ConnectExample (1)" />
+        <item itemvalue="Application.MaxAggregationExample" />
+        <item itemvalue="Application.ReduceExample" />
+        <item itemvalue="Application.JavaKeyTransformation" />
       </list>
     </recent_temporary>
   </component>
@@ -149,8 +153,18 @@
       <workItem from="1690045454215" duration="2033000" />
       <workItem from="1690106221958" duration="10374000" />
       <workItem from="1690127396063" duration="3269000" />
-      <workItem from="1690170887281" duration="627000" />
+      <workItem from="1690170887281" duration="724000" />
+      <workItem from="1690210663860" duration="10582000" />
     </task>
+    <task id="LOCAL-00001" summary="Flink project">
+      <option name="closed" value="true" />
+      <created>1690171569303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690171569303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
