@@ -1,4 +1,4 @@
-package org.example.flinkjob;
+package org.example.flinkjob.socketbased;
 
 import java.io.IOException;
 import java.io.OutputStream;

@@ -1,4 +1,4 @@
-package org.example.flinkjob;
+package org.example.flinkjob.streamingsinkfile;
 
 import org.apache.flink.api.common.serialization.SimpleStringEncoder;
 import org.apache.flink.core.fs.Path;

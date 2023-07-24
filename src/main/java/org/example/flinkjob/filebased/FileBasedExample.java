@@ -1,4 +1,4 @@
-package org.example.flinkjob;
+package org.example.flinkjob.filebased;
 
 import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.common.time.Time;

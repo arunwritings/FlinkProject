@@ -1,4 +1,4 @@
-package org.example.flinkjob;
+package org.example.flinkjob.custombased;
 
 public class HeapMetrics {
 

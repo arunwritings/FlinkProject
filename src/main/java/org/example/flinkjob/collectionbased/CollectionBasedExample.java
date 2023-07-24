@@ -1,4 +1,4 @@
-package org.example.flinkjob;
+package org.example.flinkjob.collectionbased;
 
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
