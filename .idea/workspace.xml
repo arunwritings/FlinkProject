@@ -4,22 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0876ad4-346e-4634-9274-5b4ef6aa2404" name="Changes" comment="Flink project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/AggregationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/KeyTransformations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/ReduceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/ConnectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SensorReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SensorSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SmokeLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SmokeLevelSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/filterbased/FilterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/flatmap/FlatMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/keypojo/JavaKeyTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/keypojo/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/mapbased/MapExample.java" afterDir="false" />
+    <list default="true" id="b0876ad4-346e-4634-9274-5b4ef6aa2404" name="Changes" comment="DataStream Transformation implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/connectors/JDBCExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/connectors/KinesisConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/connectors/KinesisProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/streamingETL/KafkaStreamingETL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/GlobalWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/SessionWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/SlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/TumblingWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/collectionbased/CollectionBasedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/collectionbased/CollectionBasedExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/CustomDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/custombased/CustomDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/HeapMetrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/custombased/HeapMetrics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/custombased/HeapMonitorSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/custombased/HeapMonitorSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/AggregationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/AggregationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/KeyTransformations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/KeyTransformations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/ReduceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/ReduceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/connect_coflatmap/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/ConnectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/connect_coflatmap/ConnectExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SensorReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/connect_coflatmap/SensorReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SensorSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/connect_coflatmap/SensorSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SmokeLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/connect_coflatmap/SmokeLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/connect_coflatmap/SmokeLevelSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/connect_coflatmap/SmokeLevelSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/filterbased/FilterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/filterbased/FilterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/flatmap/FlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/flatmap/FlatMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/keypojo/JavaKeyTransformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/keypojo/JavaKeyTransformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/keypojo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/keypojo/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/datastreamtransformation/mapbased/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/datastreamtransformation/mapbased/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/filebased/FileBasedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/filebased/FileBasedExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/socketbased/SocketDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/socketbased/SocketDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/socketbased/SocketExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/socketbased/SocketExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flinkjob/streamingsinkfile/StreamingSinkFileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/streamingsinkfile/StreamingSinkFileExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +79,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConnectExample">
-    <configuration name="AggregationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.AggregationExample" />
-      <module name="FlinkProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JDBCExample">
     <configuration name="ConnectExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.ConnectExample" />
       <module name="FlinkProject" />
@@ -102,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaKeyTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.keypojo.JavaKeyTransformation" />
+    <configuration name="JDBCExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flinkjob.connectors.JDBCExample" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.keypojo.*" />
+          <option name="PATTERN" value="org.flinkjob.connectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwitterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.twitter.TwitterExample" />
+      <module name="FlinkProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.flinkjob.twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCExample" />
+        <item itemvalue="Application.TwitterExample" />
         <item itemvalue="Application.ConnectExample" />
         <item itemvalue="Application.ConnectExample (1)" />
-        <item itemvalue="Application.MaxAggregationExample" />
         <item itemvalue="Application.ReduceExample" />
-        <item itemvalue="Application.JavaKeyTransformation" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +171,9 @@
       <workItem from="1690106221958" duration="10374000" />
       <workItem from="1690127396063" duration="3269000" />
       <workItem from="1690170887281" duration="724000" />
-      <workItem from="1690210663860" duration="10582000" />
+      <workItem from="1690210663860" duration="10956000" />
+      <workItem from="1690623423655" duration="1240000" />
+      <workItem from="1690815254385" duration="5529000" />
     </task>
     <task id="LOCAL-00001" summary="Flink project">
       <option name="closed" value="true" />
@@ -164,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690171569303</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DataStream Transformation implementation">
+      <option name="closed" value="true" />
+      <created>1690221666200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690221666200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +210,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Flink project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flink project" />
+    <MESSAGE value="DataStream Transformation implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataStream Transformation implementation" />
   </component>
 </project>
