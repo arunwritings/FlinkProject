@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0876ad4-346e-4634-9274-5b4ef6aa2404" name="Changes" comment="connectors, twitter, window">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/CountWindow.java" afterDir="false" />
+    <list default="true" id="b0876ad4-346e-4634-9274-5b4ef6aa2404" name="Changes" comment="CountWindow and KeyedTumblingWindow implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/KeyedSessionWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/KeyedSlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/TriggerWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/flinkjob/window/WindowJoinExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +52,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.KeyedTumblingWindow">
-    <configuration name="ConnectExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.ConnectExample" />
+  <component name="RunManager" selected="Application.WindowJoinExample">
+    <configuration name="KeyedSessionWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flinkjob.window.KeyedSessionWindow" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.*" />
+          <option name="PATTERN" value="org.flinkjob.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,25 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.ConnectExample" />
+    <configuration name="KeyedSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flinkjob.window.KeyedSlidingWindow" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.datastreamtransformation.connect_coflatmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.flinkjob.connectors.JDBCExample" />
-      <module name="FlinkProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.flinkjob.connectors.*" />
+          <option name="PATTERN" value="org.flinkjob.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwitterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flinkjob.twitter.TwitterExample" />
+    <configuration name="TriggerWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flinkjob.window.TriggerWindow" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.flinkjob.twitter.*" />
+          <option name="PATTERN" value="org.flinkjob.window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flinkjob.window.WindowJoinExample" />
+      <module name="FlinkProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.flinkjob.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindowJoinExample" />
+        <item itemvalue="Application.TriggerWindow" />
+        <item itemvalue="Application.KeyedSessionWindow" />
+        <item itemvalue="Application.KeyedSlidingWindow" />
         <item itemvalue="Application.KeyedTumblingWindow" />
-        <item itemvalue="Application.JDBCExample" />
-        <item itemvalue="Application.TwitterExample" />
-        <item itemvalue="Application.ConnectExample" />
-        <item itemvalue="Application.ConnectExample (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +147,8 @@
       <workItem from="1690210663860" duration="10956000" />
       <workItem from="1690623423655" duration="1240000" />
       <workItem from="1690815254385" duration="5725000" />
-      <workItem from="1690903785152" duration="5372000" />
+      <workItem from="1690903785152" duration="5575000" />
+      <workItem from="1690991352798" duration="5611000" />
     </task>
     <task id="LOCAL-00001" summary="Flink project">
       <option name="closed" value="true" />
@@ -178,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690820927774</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CountWindow and KeyedTumblingWindow implementation">
+      <option name="closed" value="true" />
+      <created>1690912739394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690912739394</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +211,7 @@
     <MESSAGE value="Flink project" />
     <MESSAGE value="DataStream Transformation implementation" />
     <MESSAGE value="connectors, twitter, window" />
-    <option name="LAST_COMMIT_MESSAGE" value="connectors, twitter, window" />
+    <MESSAGE value="CountWindow and KeyedTumblingWindow implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountWindow and KeyedTumblingWindow implementation" />
   </component>
 </project>
